@@ -1,672 +1,672 @@
 @font-face {
-  font-family:"Nexa" ;
-  src: url("../font/Nexa Bold.otf");
-}
-
-@font-face {
-  font-family:"Nexa Light" ;
-  src: url("../font/Nexa Light.otf");
-}
-
-@font-face {
-  font-family: "Tahu" ;
-  src: url('../font/Tahu!.ttf');
-}
-.home-page {
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 100%;
-}
-
-.home-page .overlap-wrapper {
-  background-color: #ffffff;
-  border: 1px none;
-  height: 3942px;
-  overflow-x: hidden;
-  width: 100%;
-}
-
-.home-page .overlap {
-  height: 3942px;
-  left: -6px;
-  position: relative;
-
-}
-
-.home-page .rectangle {
-  background-color: #fffdf5;
-  height: 2893px;
-  left: 7px;
-  position: absolute;
-  top: 1049px;
-  width: 1922px;
-}
-
-.home-page .element-IMG {
-  height: 917px;
-  left: 0;
-  position: absolute;
-  top: 143px;
-  width: 1933px;
-}
-
-.home-page .text-wrapper {
-  color: #ffffff;
-  font-family: "Nexa";
-  font-size: 80px;
-  font-weight: 400;
-  left: 583px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-shadow: -5px 12px 9px #00000070;
-  top: 486px;
-  width: 770px;
-}
-
-.home-page .div {
-  color: #ffffff;
-  font-family: 'Tahu';
-  font-size: 45px;
-  font-weight: 400;
-  left: 779px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  text-shadow: -5px 12px 9px #00000070;
-  top: 577px;
-  white-space: nowrap;
-  width: 380px;
-}
-
-.home-page .group {
-  height: 488px;
-  left: 301px;
-  position: absolute;
-  top: 1284px;
-  width: 1404px;
-}
-
-.home-page .IMG-svg {
-  height: 488px;
-  left: 0;
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  width: 650px;
-}
-
-.home-page .text-wrapper-2 {
-  color: #000000;
-  font-family: "Nexa";
-  font-size: 50px;
-  font-weight: 400;
-  left: 813px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 67px;
-  white-space: nowrap;
-}
-
-.home-page .p {
-  color: #000000;
-  font-family: "Nexa Light";
-  font-size: 24px;
-  font-weight: 400;
-  left: 813px;
-  letter-spacing: 0;
-  line-height: 31.2px;
-  position: absolute;
-  top: 163px;
-  width: 585px;
-}
-
-.home-page .rekomendasi-kopi {
-  color: #8b5e34;
-  font-family: "Nexa Light";
-  font-size: 24px;
-  font-weight: 400;
-  left: 813px;
-  letter-spacing: 0;
-  line-height: 31.2px;
-  position: absolute;
-  top: 327px;
-  white-space: nowrap;
-  width: 585px;
-}
-
-.home-page .group-2 {
-  height: 433px;
-  left: 301px;
-  position: absolute;
-  top: 1944px;
-  width: 1467px;
-}
-
-.home-page .img {
-  height: 433px;
-  left: 811px;
-  object-fit: cover;
-  position: absolute;
-  top: 0;
-  width: 650px;
-}
-
-.home-page .dengan-suasana {
-  color: #000000;
-  font-family: "Nexa";
-  font-size: 50px;
-  font-weight: 400;
-  left: 0;
-  letter-spacing: 0;
-  line-height: 60px;
-  position: absolute;
-  top: 19px;
-}
-
-.home-page .text-wrapper-3 {
-  color: #000000;
-  font-family: "Nexa Light";
-  font-size: 24px;
-  font-weight: 400;
-  left: 0;
-  letter-spacing: 0;
-  line-height: 31.2px;
-  position: absolute;
-  top: 179px;
-  width: 603px;
-}
-
-.home-page .temukan-lokasi-kami {
-  color: #8b5e34;
-  font-family: "Nexa Light";
-  font-size: 24px;
-  font-weight: 400;
-  left: 0;
-  letter-spacing: 0;
-  line-height: 31.2px;
-  position: absolute;
-  top: 343px;
-  white-space: nowrap;
-  width: 585px;
-}
-
-.home-page .group-3 {
-  height: 391px;
-  left: 301px;
-  position: absolute;
-  top: 2617px;
-  width: 1404px;
-}
-
-.home-page .element-IMG-2 {
-  height: 391px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 650px;
-}
-
-.home-page .untuk-ngopi-dan {
-  color: #000000;
-  font-family: "Nexa";
-  font-size: 50px;
-  font-weight: 400;
-  left: 813px;
-  letter-spacing: 0;
-  line-height: 60px;
-  position: absolute;
-  top: 18px;
-}
-
-.home-page .text-wrapper-4 {
-  color: #000000;
-  font-family: "Nexa Light";
-  font-size: 24px;
-  font-weight: 400;
-  left: 813px;
-  letter-spacing: 0;
-  line-height: 31.2px;
-  position: absolute;
-  top: 178px;
-  width: 585px;
-}
-
-.home-page .jangan-lewatkan {
-  color: #8b5e34;
-  font-family: "Nexa Light";
-  font-size: 24px;
-  font-weight: 400;
-  left: 813px;
-  letter-spacing: 0;
-  line-height: 31.2px;
-  position: absolute;
-  top: 342px;
-  white-space: nowrap;
-  width: 585px;
-}
-
-.home-page .group-button {
-  height: 90px;
-  left: 342px;
-  position: absolute;
-  top: 3200px;
-  width: 409px;
-}
-
-.home-page .text-wrapper-5 {
-  color: #432818;
-  font-family: "Nexa";
-  font-size: 24px;
-  font-weight: 400;
-  left: 82px;
-  letter-spacing: 0;
-  line-height: 34.3px;
-  position: absolute;
-  text-align: center;
-  top: 35px;
-  white-space: nowrap;
-  width: 325px;
-}
-
-.home-page .gelas-icon {
-  height: 90px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 75px;
-}
-
-.home-page .group-button-2 {
-  height: 72px;
-  left: 816px;
-  position: absolute;
-  top: 3209px;
-  width: 443px;
-}
-
-.home-page .text-wrapper-6 {
-  color: #432818;
-  font-family: "Nexa";
-  font-size: 24px;
-  font-weight: 400;
-  left: 85px;
-  letter-spacing: 0;
-  line-height: 34.3px;
-  position: absolute;
-  text-align: center;
-  top: 26px;
-  white-space: nowrap;
-  width: 356px;
-}
-
-.home-page .price-tag-icon {
-  height: 72px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 72px;
-}
-
-.home-page .group-4 {
-  height: 78px;
-  left: 1347px;
-  position: absolute;
-  top: 3206px;
-  width: 326px;
-}
-
-.home-page .text-wrapper-7 {
-  color: #432818;
-  font-family: "Nexa";
-  font-size: 24px;
-  font-weight: 400;
-  left: 81px;
-  letter-spacing: 0;
-  line-height: 34.3px;
-  position: absolute;
-  text-align: center;
-  top: 24px;
-  white-space: nowrap;
-  width: 243px;
-}
-
-.home-page .location-icon {
-  height: 78px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 60px;
-}
-
-.home-page .footer {
-  background-color: transparent;
-  height: 451px;
-  left: 9px;
-  position: absolute;
-  top: 3491px;
-  width: 1926px;
-}
-
-.home-page .overlap-group {
-  background-color: #432818;
-  height: 369px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-
-.home-page .frame {
-  height: 67px;
-  left: 159px;
-  position: absolute;
-  top: 73px;
-  width: 272px;
-}
-
-.home-page .group-5 {
-  height: 164px;
-  left: 646px;
-  position: absolute;
-  top: 115px;
-  width: 256px;
-}
-
-.home-page .text-wrapper-8 {
-  color: #fefae0;
-  font-family: "Nexa";
-  font-size: 22px;
-  font-weight: 400;
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 0;
-  white-space: nowrap;
-}
-
-.home-page .flex-container {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  height: 124px;
-  left: 0;
-  position: absolute;
-  top: 40px;
-  width: 252px;
-}
-
-.home-page .text {
-  color: #fefae0;
-  font-family: "Nexa";
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 0;
-  line-height: normal;
-  position: relative;
-  white-space: nowrap;
-  width: 252px;
-}
-
-.home-page .span {
-  color: #fefae0;
-  font-family: "Nexa";
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 0;
-}
-
-.home-page .group-6 {
-  height: 128px;
-  left: 1095px;
-  position: absolute;
-  top: 115px;
-  width: 172px;
-}
-
-.home-page .flex-container-2 {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  height: 88px;
-  left: 0;
-  position: absolute;
-  top: 40px;
-  width: 79px;
-}
-
-.home-page .span-wrapper {
-  color: #fefae0;
-  font-family: "Nexa";
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 0;
-  line-height: normal;
-  position: relative;
-  white-space: nowrap;
-  width: 79px;
-}
-
-.home-page .group-7 {
-  height: 56px;
-  left: 1460px;
-  position: absolute;
-  top: 115px;
-  width: 350px;
-}
-
-.home-page .text-wrapper-9 {
-  color: #fefae0;
-  font-family: "Nexa";
-  font-size: 16px;
-  font-weight: 400;
-  left: 0;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 40px;
-  white-space: nowrap;
-}
-
-.home-page .text-wrapper-10 {
-  color: #fefae0;
-  font-family: "Nexa";
-  font-size: 22px;
-  font-weight: 400;
-  left: 160px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 187px;
-  white-space: nowrap;
-}
-
-.home-page .flex-container-3 {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  height: 52px;
-  left: 160px;
-  position: absolute;
-  top: 227px;
-  width: 320px;
-}
-
-.home-page .text-2 {
-  color: #fefae0;
-  font-family: "Nexa";
-  font-size: 16px;
-  font-weight: 400;
-  letter-spacing: 0;
-  line-height: normal;
-  position: relative;
-  white-space: nowrap;
-  width: 320px;
-}
-
-.home-page .overlap-2 {
-  height: 82px;
-  left: 0;
-  position: absolute;
-  top: 369px;
-  width: 100%;
-}
-
-.home-page .group-8 {
-  background-color: #283618;
-  height: 82px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-
-.home-page .instagram-logo {
-  height: 35px;
-  left: 1723px;
-  position: absolute;
-  top: 23px;
-  width: 35px;
-}
-
-.home-page .GPS-logo-footer {
-  height: 48px;
-  left: 1418px;
-  position: absolute;
-  top: 19px;
-  width: 47px;
-}
-
-.home-page .tiktok-logo {
-  height: 36px;
-  left: 1625px;
-  position: absolute;
-  top: 23px;
-  width: 31px;
-}
-
-.home-page .WA-logo {
-  height: 35px;
-  left: 1523px;
-  position: absolute;
-  top: 23px;
-  width: 35px;
-}
-
-.home-page .text-wrapper-11 {
-  color: #fefae0;
-  font-family: "Nexa";
-  font-size: 24px;
-  font-weight: 400;
-  left: 159px;
-  letter-spacing: 0;
-  line-height: 34.3px;
-  position: absolute;
-  text-align: center;
-  top: 21px;
-  white-space: nowrap;
-}
-
-.home-page .header {
-  background-color: transparent;
-  height: 146px;
-  left: 6px;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-
-.home-page .rectangle-2 {
-  background-color: #283618;
-  height: 25px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 100%;
-}
-
-.home-page .overlap-3 {
-  background-color: #fefae0;
-  height: 121px;
-  left: 0;
-  position: absolute;
-  top: 25px;
-  width: 100%;
-}
-
-.home-page .HOME-button {
-  color: #6f4518;
-  font-family: "Nexa";
-  font-size: 24px;
-  font-weight: 400;
-  left: 1182px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 52px;
-  width: 95px;
-}
-
-.home-page .PROFILE-button {
-  color: #6f4518;
-  font-family: "Nexa";
-  font-size: 24px;
-  font-weight: 400;
-  /* left: 1332px; */
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 54px;
-  width: 133px;
-}
-
-.home-page .MENU-button {
-  color: #6f4518;
-  font-family: "Nexa";
-  font-size: 24px;
-  font-weight: 400;
-  left: 1508px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 54px;
-  width: 133px;
-}
-
-.home-page .KONTAK-button {
-  color: #6f4518;
-  font-family: "Nexa";
-  font-size: 24px;
-  font-weight: 400;
-  left: 1659px;
-  letter-spacing: 0;
-  line-height: normal;
-  position: absolute;
-  top: 54px;
-  width: 111px;
-}
-
-.home-page .logo-kopi-tema {
-  height: 77px;
-  left: 133px;
-  object-fit: cover;
-  position: absolute;
-  top: 23px;
-  width: 280px;
-}
-.WebContainer{
-  width: auto;
-  height: auto;
-}
-.articles{
-  width:90%; /*Takes 90% width from WebContainer*/
-  height: auto;
-  margin: auto;
-}
+    font-family:"Nexa" ;
+    src: url("../font/Nexa Bold.otf");
+  }
+
+  @font-face {
+    font-family:"Nexa Light" ;
+    src: url("../font/Nexa Light.otf");
+  }
+
+  @font-face {
+    font-family: "Tahu" ;
+    src: url('../font/Tahu!.ttf');
+  }
+  .home-page {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: auto;
+  }
+
+  .home-page .overlap-wrapper {
+    background-color: #ffffff;
+    border: 1px none;
+    height: 3942px;
+    overflow-x: hidden;
+    width: 1920px;
+  }
+
+  .home-page .overlap {
+    height: 3942px;
+    left: -6px;
+    position: relative;
+    width: 1935px;
+  }
+
+  .home-page .rectangle {
+    background-color: #fffdf5;
+    height: 2893px;
+    left: 7px;
+    position: absolute;
+    top: 1049px;
+    width: 1922px;
+  }
+
+  .home-page .element-IMG {
+    height: 917px;
+    left: 0;
+    position: absolute;
+    top: 143px;
+    width: 1933px;
+  }
+
+  .home-page .text-wrapper {
+    color: #ffffff;
+    font-family: "Nexa";
+    font-size: 80px;
+    font-weight: 400;
+    left: 583px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-shadow: -5px 12px 9px #00000070;
+    top: 486px;
+    width: 770px;
+  }
+
+  .home-page .div {
+    color: #ffffff;
+    font-family: 'Tahu';
+    font-size: 45px;
+    font-weight: 400;
+    left: 779px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    text-shadow: -5px 12px 9px #00000070;
+    top: 577px;
+    white-space: nowrap;
+    width: 380px;
+  }
+
+  .home-page .group {
+    height: 488px;
+    left: 301px;
+    position: absolute;
+    top: 1284px;
+    width: 1404px;
+  }
+
+  .home-page .IMG-svg {
+    height: 488px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 650px;
+  }
+
+  .home-page .text-wrapper-2 {
+    color: #000000;
+    font-family: "Nexa";
+    font-size: 50px;
+    font-weight: 400;
+    left: 813px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 67px;
+    white-space: nowrap;
+  }
+
+  .home-page .p {
+    color: #000000;
+    font-family: "Nexa Light";
+    font-size: 24px;
+    font-weight: 400;
+    left: 813px;
+    letter-spacing: 0;
+    line-height: 31.2px;
+    position: absolute;
+    top: 163px;
+    width: 585px;
+  }
+
+  .home-page .rekomendasi-kopi {
+    color: #8b5e34;
+    font-family: "Nexa Light";
+    font-size: 24px;
+    font-weight: 400;
+    left: 813px;
+    letter-spacing: 0;
+    line-height: 31.2px;
+    position: absolute;
+    top: 327px;
+    white-space: nowrap;
+    width: 585px;
+  }
+
+  .home-page .group-2 {
+    height: 433px;
+    left: 301px;
+    position: absolute;
+    top: 1944px;
+    width: 1467px;
+  }
+
+  .home-page .img {
+    height: 433px;
+    left: 811px;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 650px;
+  }
+
+  .home-page .dengan-suasana {
+    color: #000000;
+    font-family: "Nexa";
+    font-size: 50px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 60px;
+    position: absolute;
+    top: 19px;
+  }
+
+  .home-page .text-wrapper-3 {
+    color: #000000;
+    font-family: "Nexa Light";
+    font-size: 24px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 31.2px;
+    position: absolute;
+    top: 179px;
+    width: 603px;
+  }
+
+  .home-page .temukan-lokasi-kami {
+    color: #8b5e34;
+    font-family: "Nexa Light";
+    font-size: 24px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 31.2px;
+    position: absolute;
+    top: 343px;
+    white-space: nowrap;
+    width: 585px;
+  }
+
+  .home-page .group-3 {
+    height: 391px;
+    left: 301px;
+    position: absolute;
+    top: 2617px;
+    width: 1404px;
+  }
+
+  .home-page .element-IMG-2 {
+    height: 391px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 650px;
+  }
+
+  .home-page .untuk-ngopi-dan {
+    color: #000000;
+    font-family: "Nexa";
+    font-size: 50px;
+    font-weight: 400;
+    left: 813px;
+    letter-spacing: 0;
+    line-height: 60px;
+    position: absolute;
+    top: 18px;
+  }
+
+  .home-page .text-wrapper-4 {
+    color: #000000;
+    font-family: "Nexa Light";
+    font-size: 24px;
+    font-weight: 400;
+    left: 813px;
+    letter-spacing: 0;
+    line-height: 31.2px;
+    position: absolute;
+    top: 178px;
+    width: 585px;
+  }
+
+  .home-page .jangan-lewatkan {
+    color: #8b5e34;
+    font-family: "Nexa Light";
+    font-size: 24px;
+    font-weight: 400;
+    left: 813px;
+    letter-spacing: 0;
+    line-height: 31.2px;
+    position: absolute;
+    top: 342px;
+    white-space: nowrap;
+    width: 585px;
+  }
+
+  .home-page .group-button {
+    height: 90px;
+    left: 342px;
+    position: absolute;
+    top: 3200px;
+    width: 409px;
+  }
+
+  .home-page .text-wrapper-5 {
+    color: #432818;
+    font-family: "Nexa";
+    font-size: 24px;
+    font-weight: 400;
+    left: 82px;
+    letter-spacing: 0;
+    line-height: 34.3px;
+    position: absolute;
+    text-align: center;
+    top: 35px;
+    white-space: nowrap;
+    width: 325px;
+  }
+
+  .home-page .gelas-icon {
+    height: 90px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 75px;
+  }
+
+  .home-page .group-button-2 {
+    height: 72px;
+    left: 816px;
+    position: absolute;
+    top: 3209px;
+    width: 443px;
+  }
+
+  .home-page .text-wrapper-6 {
+    color: #432818;
+    font-family: "Nexa";
+    font-size: 24px;
+    font-weight: 400;
+    left: 85px;
+    letter-spacing: 0;
+    line-height: 34.3px;
+    position: absolute;
+    text-align: center;
+    top: 26px;
+    white-space: nowrap;
+    width: 356px;
+  }
+
+  .home-page .price-tag-icon {
+    height: 72px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 72px;
+  }
+
+  .home-page .group-4 {
+    height: 78px;
+    left: 1347px;
+    position: absolute;
+    top: 3206px;
+    width: 326px;
+  }
+
+  .home-page .text-wrapper-7 {
+    color: #432818;
+    font-family: "Nexa";
+    font-size: 24px;
+    font-weight: 400;
+    left: 81px;
+    letter-spacing: 0;
+    line-height: 34.3px;
+    position: absolute;
+    text-align: center;
+    top: 24px;
+    white-space: nowrap;
+    width: 243px;
+  }
+
+  .home-page .location-icon {
+    height: 78px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 60px;
+  }
+
+  .home-page .footer {
+    background-color: transparent;
+    height: 451px;
+    left: 9px;
+    position: absolute;
+    top: 3491px;
+    width: 1926px;
+  }
+
+  .home-page .overlap-group {
+    background-color: #432818;
+    height: 369px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1920px;
+  }
+
+  .home-page .frame {
+    height: 67px;
+    left: 159px;
+    position: absolute;
+    top: 73px;
+    width: 272px;
+  }
+
+  .home-page .group-5 {
+    height: 164px;
+    left: 646px;
+    position: absolute;
+    top: 115px;
+    width: 256px;
+  }
+
+  .home-page .text-wrapper-8 {
+    color: #fefae0;
+    font-family: "Nexa";
+    font-size: 22px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+    white-space: nowrap;
+  }
+
+  .home-page .flex-container {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 124px;
+    left: 0;
+    position: absolute;
+    top: 40px;
+    width: 252px;
+  }
+
+  .home-page .text {
+    color: #fefae0;
+    font-family: "Nexa";
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    white-space: nowrap;
+    width: 252px;
+  }
+
+  .home-page .span {
+    color: #fefae0;
+    font-family: "Nexa";
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+
+  .home-page .group-6 {
+    height: 128px;
+    left: 1095px;
+    position: absolute;
+    top: 115px;
+    width: 172px;
+  }
+
+  .home-page .flex-container-2 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 88px;
+    left: 0;
+    position: absolute;
+    top: 40px;
+    width: 79px;
+  }
+
+  .home-page .span-wrapper {
+    color: #fefae0;
+    font-family: "Nexa";
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    white-space: nowrap;
+    width: 79px;
+  }
+
+  .home-page .group-7 {
+    height: 56px;
+    left: 1460px;
+    position: absolute;
+    top: 115px;
+    width: 350px;
+  }
+
+  .home-page .text-wrapper-9 {
+    color: #fefae0;
+    font-family: "Nexa";
+    font-size: 16px;
+    font-weight: 400;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 40px;
+    white-space: nowrap;
+  }
+
+  .home-page .text-wrapper-10 {
+    color: #fefae0;
+    font-family: "Nexa";
+    font-size: 22px;
+    font-weight: 400;
+    left: 160px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 187px;
+    white-space: nowrap;
+  }
+
+  .home-page .flex-container-3 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 52px;
+    left: 160px;
+    position: absolute;
+    top: 227px;
+    width: 320px;
+  }
+
+  .home-page .text-2 {
+    color: #fefae0;
+    font-family: "Nexa";
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: normal;
+    position: relative;
+    white-space: nowrap;
+    width: 320px;
+  }
+
+  .home-page .overlap-2 {
+    height: 82px;
+    left: 0;
+    position: absolute;
+    top: 369px;
+    width: 1920px;
+  }
+
+  .home-page .group-8 {
+    background-color: #283618;
+    height: 82px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1920px;
+  }
+
+  .home-page .instagram-logo {
+    height: 35px;
+    left: 1723px;
+    position: absolute;
+    top: 23px;
+    width: 35px;
+  }
+
+  .home-page .GPS-logo-footer {
+    height: 48px;
+    left: 1418px;
+    position: absolute;
+    top: 19px;
+    width: 47px;
+  }
+
+  .home-page .tiktok-logo {
+    height: 36px;
+    left: 1625px;
+    position: absolute;
+    top: 23px;
+    width: 31px;
+  }
+
+  .home-page .WA-logo {
+    height: 35px;
+    left: 1523px;
+    position: absolute;
+    top: 23px;
+    width: 35px;
+  }
+
+  .home-page .text-wrapper-11 {
+    color: #fefae0;
+    font-family: "Nexa";
+    font-size: 24px;
+    font-weight: 400;
+    left: 159px;
+    letter-spacing: 0;
+    line-height: 34.3px;
+    position: absolute;
+    text-align: center;
+    top: 21px;
+    white-space: nowrap;
+  }
+
+  .home-page .header {
+    background-color: transparent;
+    height: 146px;
+    left: 6px;
+    position: absolute;
+    top: 0;
+    width: 1928px;
+  }
+
+  .home-page .rectangle-2 {
+    background-color: #283618;
+    height: 25px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1920px;
+  }
+
+  .home-page .overlap-3 {
+    background-color: #fefae0;
+    height: 121px;
+    left: 0;
+    position: absolute;
+    top: 25px;
+    width: 1920px;
+  }
+
+  .home-page .HOME-button {
+    color: #6f4518;
+    font-family: "Nexa";
+    font-size: 24px;
+    font-weight: 400;
+    left: 1182px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 52px;
+    width: 95px;
+  }
+
+  .home-page .PROFILE-button {
+    color: #6f4518;
+    font-family: "Nexa";
+    font-size: 24px;
+    font-weight: 400;
+    left: 1332px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 54px;
+    width: 133px;
+  }
+
+  .home-page .MENU-button {
+    color: #6f4518;
+    font-family: "Nexa";
+    font-size: 24px;
+    font-weight: 400;
+    left: 1508px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 54px;
+    width: 133px;
+  }
+
+  .home-page .KONTAK-button {
+    color: #6f4518;
+    font-family: "Nexa";
+    font-size: 24px;
+    font-weight: 400;
+    left: 1659px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 54px;
+    width: 111px;
+  }
+
+  .home-page .logo-kopi-tema {
+    height: 77px;
+    left: 133px;
+    object-fit: cover;
+    position: absolute;
+    top: 23px;
+    width: 280px;
+  }
+  .WebContainer{
+    width: auto;
+    height: auto;
+  }
+  .articles{
+    width:90%; /*Takes 90% width from WebContainer*/
+    height: auto;
+    margin: auto;
+  }
