@@ -1,0 +1,893 @@
+@font-face {
+  font-family:"Nexa" ;
+  src: url("../font/Nexa Bold.otf");
+}
+
+@font-face {
+  font-family:"Nexa Light" ;
+  src: url("../font/Nexa Light.otf");
+}
+
+@font-face {
+  font-family: "Tahu" ;
+  src: url('../font/Tahu!.ttf');
+}
+
+.minuman {
+  background-color: #fffef5;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.minuman .div {
+  background-color: #fffef5;
+  border: 1px none;
+  height: 3251px;
+  overflow: hidden;
+  position: relative;
+  width: 1920px;
+}
+
+.minuman .overlap {
+  height: 1455px;
+  left: 163px;
+  position: absolute;
+  top: 1200px;
+  width: 1721px;
+}
+
+.minuman .group {
+  height: 1455px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1721px;
+}
+
+.minuman .overlap-group {
+  background-image: url(../img/gambar/minuman/cappucino.png);
+  background-size: 100% 100%;
+  height: 400px;
+  left: 598px;
+  position: absolute;
+  top: 181px;
+  width: 399px;
+}
+
+.minuman .best-seller-icon {
+  height: 45px;
+  left: 13px;
+  position: relative;
+  top: 15px;
+  width: 151px;
+}
+
+.minuman .div-wrapper {
+  border: 1px solid;
+  border-color: #f6f7f7;
+  border-radius: 13px;
+  height: 45px;
+  position: relative;
+  width: 149px;
+}
+
+.minuman .text-wrapper {
+  color: #ffffff;
+  font-family: "Nexa";
+  font-size: 20px;
+  font-weight: 400;
+  left: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 13px;
+  width: 113px;
+}
+
+.minuman .es-kopi-susu {
+  color: #000000;
+  font-family: "Nexa";
+  font-size: 35px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 634px;
+  white-space: nowrap;
+  width: 507px;
+}
+
+.minuman .text-wrapper-2 {
+  color: #000000;
+  font-family: "Nexa";
+  font-size: 35px;
+  font-weight: 400;
+  left: 598px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 634px;
+  white-space: nowrap;
+  width: 519px;
+}
+
+.minuman .text-wrapper-3 {
+  color: #000000;
+  font-family: "Nexa";
+  font-size: 35px;
+  font-weight: 400;
+  left: 1196px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 628px;
+  white-space: nowrap;
+  width: 481px;
+}
+
+.minuman .text-wrapper-4 {
+  color: #000000;
+  font-family: "Nexa";
+  font-size: 64px;
+  font-weight: 400;
+  left: 584px;
+  letter-spacing: 0;
+  line-height: 91.5px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 426px;
+}
+
+.minuman .text-wrapper-5 {
+  color: #000000;
+  font-family: "Nexa";
+  font-size: 32px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 45.8px;
+  position: absolute;
+  top: 778px;
+  white-space: nowrap;
+  width: 394px;
+}
+
+.minuman .text-wrapper-6 {
+  color: #000000;
+  font-family: "Nexa";
+  font-size: 32px;
+  font-weight: 400;
+  left: 598px;
+  letter-spacing: 0;
+  line-height: 45.8px;
+  position: absolute;
+  top: 778px;
+  white-space: nowrap;
+  width: 394px;
+}
+
+.minuman .overlap-2 {
+  height: 124px;
+  left: 1196px;
+  position: absolute;
+  top: 694px;
+  width: 394px;
+}
+
+.minuman .text-wrapper-7 {
+  color: #000000;
+  font-family: "Nexa";
+  font-size: 32px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 45.8px;
+  position: absolute;
+  top: 78px;
+  white-space: nowrap;
+  width: 394px;
+}
+
+.minuman .full-arabica-with {
+  color: #000000;
+  font-family: "Nexa Light";
+  font-size: 24px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 34.3px;
+  position: absolute;
+  top: 0;
+  width: 374px;
+}
+
+.minuman .p {
+  color: #000000;
+  font-family: "Nexa Light";
+  font-size: 24px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 34.3px;
+  position: absolute;
+  top: 700px;
+  width: 376px;
+}
+
+.minuman .text-wrapper-8 {
+  color: #000000;
+  font-family: "Nexa";
+  font-size: 24px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 34.3px;
+  position: absolute;
+  top: 1290px;
+  white-space: nowrap;
+  width: 310px;
+}
+
+.minuman .text-wrapper-9 {
+  color: #000000;
+  font-family: "Nexa";
+  font-size: 32px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 45.8px;
+  position: absolute;
+  top: 1427px;
+  white-space: nowrap;
+  width: 253px;
+}
+
+.minuman .cappucino-with {
+  color: #000000;
+  font-family: "Nexa Light";
+  font-size: 24px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 34.3px;
+  position: absolute;
+  top: 1337px;
+  width: 257px;
+}
+
+.minuman .full-arabica {
+  color: #000000;
+  font-family: "Nexa Light";
+  font-size: 24px;
+  font-weight: 400;
+  left: 598px;
+  letter-spacing: 0;
+  line-height: 34.3px;
+  position: absolute;
+  top: 700px;
+  width: 380px;
+}
+
+.minuman .text-wrapper-10 {
+  color: #000000;
+  font-family: "Nexa";
+  font-size: 24px;
+  font-weight: 400;
+  left: 435px;
+  letter-spacing: 0;
+  line-height: 34.3px;
+  position: absolute;
+  top: 1290px;
+  white-space: nowrap;
+  width: 279px;
+}
+
+.minuman .text-wrapper-11 {
+  color: #000000;
+  font-family: "Nexa";
+  font-size: 32px;
+  font-weight: 400;
+  left: 435px;
+  letter-spacing: 0;
+  line-height: 45.8px;
+  position: absolute;
+  top: 1427px;
+  white-space: nowrap;
+  width: 253px;
+}
+
+.minuman .sweet-ice-black {
+  color: #000000;
+  font-family: "Nexa Light";
+  font-size: 24px;
+  font-weight: 400;
+  left: 435px;
+  letter-spacing: 0;
+  line-height: 34.3px;
+  position: absolute;
+  top: 1334px;
+  width: 256px;
+}
+
+.minuman .text-wrapper-12 {
+  color: #000000;
+  font-family: "Nexa";
+  font-size: 24px;
+  font-weight: 400;
+  left: 870px;
+  letter-spacing: 0;
+  line-height: 34.3px;
+  position: absolute;
+  top: 1290px;
+  white-space: nowrap;
+  width: 335px;
+}
+
+.minuman .text-wrapper-13 {
+  color: #000000;
+  font-family: "Nexa";
+  font-size: 32px;
+  font-weight: 400;
+  left: 870px;
+  letter-spacing: 0;
+  line-height: 45.8px;
+  position: absolute;
+  top: 1427px;
+  white-space: nowrap;
+  width: 253px;
+}
+
+.minuman .sweet-matcha-with {
+  color: #000000;
+  font-family: "Nexa Light";
+  font-size: 24px;
+  font-weight: 400;
+  left: 870px;
+  letter-spacing: 0;
+  line-height: 34.3px;
+  position: absolute;
+  top: 1334px;
+  width: 315px;
+}
+
+.minuman .text-wrapper-14 {
+  color: #000000;
+  font-family: "Nexa";
+  font-size: 24px;
+  font-weight: 400;
+  left: 1305px;
+  letter-spacing: 0;
+  line-height: 34.3px;
+  position: absolute;
+  top: 1290px;
+  white-space: nowrap;
+  width: 254px;
+}
+
+.minuman .text-wrapper-15 {
+  color: #000000;
+  font-family: "Nexa";
+  font-size: 32px;
+  font-weight: 400;
+  left: 1305px;
+  letter-spacing: 0;
+  line-height: 45.8px;
+  position: absolute;
+  top: 1427px;
+  white-space: nowrap;
+  width: 254px;
+}
+
+.minuman .sweet-redvelvet-with {
+  color: #000000;
+  font-family: "Nexa Light";
+  font-size: 24px;
+  font-weight: 400;
+  left: 1305px;
+  letter-spacing: 0;
+  line-height: 34.3px;
+  position: absolute;
+  top: 1334px;
+  width: 279px;
+}
+
+.minuman .best-seller-icon-wrapper {
+  background-image: url(../img/gambar/minuman/es\ kopi\ susu.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 400px;
+  left: 0;
+  position: absolute;
+  top: 181px;
+  width: 399px;
+}
+
+.minuman .overlap-wrapper {
+  height: 45px;
+  left: 16px;
+  position: relative;
+  top: 15px;
+  width: 151px;
+}
+
+.minuman .hot-creame {
+  height: 290px;
+  left: 0;
+  position: absolute;
+  top: 965px;
+  width: 290px;
+}
+
+.minuman .ice-black {
+  height: 290px;
+  left: 435px;
+  object-fit: cover;
+  position: absolute;
+  top: 965px;
+  width: 290px;
+}
+
+.minuman .red-velvet {
+  height: 290px;
+  left: 1305px;
+  object-fit: cover;
+  position: absolute;
+  top: 965px;
+  width: 290px;
+}
+
+.minuman .must-try-logo-wrapper {
+  background-image: url(../img/gambar/minuman/sweet\ caramel.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 399px;
+  left: 1196px;
+  position: absolute;
+  top: 182px;
+  width: 399px;
+}
+
+.minuman .must-try-logo {
+  height: 45px;
+  left: 19px;
+  position: relative;
+  top: 16px;
+  width: 145px;
+}
+
+.minuman .overlap-3 {
+  border: 1px solid;
+  border-color: #fafafa;
+  border-radius: 13px;
+  height: 45px;
+  position: relative;
+  width: 143px;
+}
+
+.minuman .text-wrapper-16 {
+  color: #fafafa;
+  font-family: "Nexa";
+  font-size: 20px;
+  font-weight: 400;
+  left: 51px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 13px;
+  white-space: nowrap;
+  width: 83px;
+}
+
+.minuman .green-tea {
+  height: 290px;
+  left: 870px;
+  object-fit: cover;
+  position: absolute;
+  top: 965px;
+  width: 290px;
+}
+
+.minuman .img {
+  height: 27px;
+  left: 24px;
+  object-fit: cover;
+  position: absolute;
+  top: 204px;
+  width: 20px;
+}
+
+.minuman .best-seller-icon-2 {
+  height: 27px;
+  left: 619px;
+  object-fit: cover;
+  position: absolute;
+  top: 204px;
+  width: 20px;
+}
+
+.minuman .logo-must-try {
+  height: 27px;
+  left: 1231px;
+  object-fit: cover;
+  position: absolute;
+  top: 204px;
+  width: 23px;
+}
+
+.minuman .best-seller-icon-3 {
+  height: 668px;
+  left: -9315px;
+  position: absolute;
+  top: -80px;
+  width: 532px;
+}
+
+.minuman .overlap-4 {
+  background-image: url(../img/gambar/minuman/Irham\ minum\ kopi.png);
+  background-size: 100% 100%;
+  height: 1085px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.minuman .h-1 {
+  color: #ffffff;
+  font-family: "Nexa";
+  font-size: 80px;
+  font-weight: 400;
+  left: 86px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-shadow: -5px 12px 9px #00000070;
+  top: 507px;
+  width: 617px;
+}
+
+.minuman .text-wrapper-17 {
+  color: #ffffff;
+  font-family: "Nexa";
+  font-size: 80px;
+  font-weight: 400;
+  left: 1266px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-shadow: -5px 12px 9px #00000070;
+  top: 507px;
+  width: 617px;
+}
+
+.minuman .group-2 {
+  height: 146px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.minuman .rectangle {
+  background-color: #283618;
+  height: 25px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.minuman .overlap-5 {
+  background-color: #fefae0;
+  height: 121px;
+  left: 0;
+  position: absolute;
+  top: 25px;
+  width: 1920px;
+}
+
+.minuman .group-3 {
+  height: 34px;
+  left: 1182px;
+  position: absolute;
+  top: 52px;
+  width: 596px;
+}
+
+.minuman .HOME-button {
+  color: #6f4518;
+  font-family: "Nexa";
+  font-size: 24px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 95px;
+}
+
+.minuman .PROFILE-button {
+  color: #6f4518;
+  font-family: "Nexa";
+  font-size: 24px;
+  font-weight: 400;
+  left: 150px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2px;
+  width: 133px;
+}
+
+.minuman .MENU-button {
+  color: #6f4518;
+  font-family: "Nexa";
+  font-size: 24px;
+  font-weight: 400;
+  left: 326px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2px;
+  width: 133px;
+}
+
+.minuman .KONTAK-button {
+  color: #6f4518;
+  font-family: "Nexa";
+  font-size: 24px;
+  font-weight: 400;
+  left: 477px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2px;
+  width: 111px;
+}
+
+.minuman .logo-kopi-tema {
+  height: 77px;
+  left: 133px;
+  object-fit: cover;
+  position: absolute;
+  top: 23px;
+  width: 280px;
+}
+
+.minuman .footer {
+  background-color: transparent;
+  height: 451px;
+  left: 1px;
+  position: absolute;
+  top: 2800px;
+  width: 1926px;
+}
+
+.minuman .overlap-6 {
+  background-color: #432818;
+  height: 369px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.minuman .frame {
+  height: 67px;
+  left: 159px;
+  position: absolute;
+  top: 73px;
+  width: 272px;
+}
+
+.minuman .group-4 {
+  height: 164px;
+  left: 646px;
+  position: absolute;
+  top: 115px;
+  width: 256px;
+}
+
+.minuman .text-wrapper-18 {
+  color: #fefae0;
+  font-family: "Nexa";
+  font-size: 22px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.minuman .flex-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 124px;
+  left: 0;
+  position: absolute;
+  top: 40px;
+  width: 252px;
+}
+
+.minuman .text {
+  color: #fefae0;
+  font-family: "Nexa";
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  white-space: nowrap;
+  width: 252px;
+}
+
+.minuman .span {
+  color: #fefae0;
+  font-family: "Nexa";
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.minuman .group-5 {
+  height: 128px;
+  left: 1095px;
+  position: absolute;
+  top: 115px;
+  width: 172px;
+}
+
+.minuman .flex-container-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 88px;
+  left: 0;
+  position: absolute;
+  top: 40px;
+  width: 79px;
+}
+
+.minuman .span-wrapper {
+  color: #fefae0;
+  font-family: "Nexa";
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  white-space: nowrap;
+  width: 79px;
+}
+
+.minuman .group-6 {
+  height: 56px;
+  left: 1460px;
+  position: absolute;
+  top: 115px;
+  width: 354px;
+}
+
+.minuman .text-wrapper-19 {
+  color: #fefae0;
+  font-family: "Nexa";
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 40px;
+  white-space: nowrap;
+}
+
+.minuman .text-wrapper-20 {
+  color: #fefae0;
+  font-family: "Nexa";
+  font-size: 22px;
+  font-weight: 400;
+  left: 160px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 187px;
+  white-space: nowrap;
+}
+
+.minuman .flex-container-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 52px;
+  left: 160px;
+  position: absolute;
+  top: 227px;
+  width: 314px;
+}
+
+.minuman .text-2 {
+  color: #fefae0;
+  font-family: "Nexa";
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  white-space: nowrap;
+  width: 314px;
+}
+
+.minuman .overlap-7 {
+  height: 82px;
+  left: 0;
+  position: absolute;
+  top: 369px;
+  width: 1920px;
+}
+
+.minuman .group-7 {
+  background-color: #283618;
+  height: 82px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.minuman .instagram-logo {
+  height: 35px;
+  left: 1723px;
+  position: absolute;
+  top: 23px;
+  width: 35px;
+}
+
+.minuman .GPS-logo-footer {
+  height: 48px;
+  left: 1418px;
+  position: absolute;
+  top: 19px;
+  width: 47px;
+}
+
+.minuman .tiktok-logo {
+  height: 36px;
+  left: 1625px;
+  position: absolute;
+  top: 22px;
+  width: 31px;
+}
+
+.minuman .WA-logo {
+  height: 35px;
+  left: 1523px;
+  position: absolute;
+  top: 22px;
+  width: 35px;
+}
+
+.minuman .text-wrapper-21 {
+  color: #fefae0;
+  font-family: "Nexa Light";
+  font-size: 24px;
+  font-weight: 400;
+  left: 159px;
+  letter-spacing: 0;
+  line-height: 34.3px;
+  position: absolute;
+  text-align: center;
+  top: 21px;
+  white-space: nowrap;
+}

@@ -1,0 +1,474 @@
+@font-face {
+  font-family:"Nexa" ;
+  src: url("../font/Nexa Bold.otf");
+}
+
+@font-face {
+  font-family:"Nexa Light" ;
+  src: url("../font/Nexa Light.otf");
+}
+
+@font-face {
+  font-family: "Tahu" ;
+  src: url('../font/Tahu!.ttf');
+}
+
+.profile {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.profile .div {
+  background-color: #ffffff;
+  border: 1px none;
+  height: 2626px;
+  overflow-x: hidden;
+  position: relative;
+  width: 1920px;
+}
+
+.profile .overlap {
+  height: 2177px;
+  left: 0;
+  position: absolute;
+  top: -2px;
+  width: 1920px;
+}
+
+.profile .main-foto-profil {
+  height: 1552px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.profile .rectangle {
+  background-color: #fffef5;
+  height: 1093px;
+  left: 0;
+  position: absolute;
+  top: 1084px;
+  width: 1920px;
+}
+
+.profile .DENGAN-RASA {
+  color: #000000;
+  font-family: "Nexa Light";
+  font-size: 24px;
+  font-weight: 400;
+  left: 979px;
+  letter-spacing: 0;
+  line-height: 24px;
+  position: absolute;
+  text-align: justify;
+  top: 1381px;
+  width: 734px;
+}
+
+.profile .text-wrapper {
+  color: #000000;
+  font-family: "Nexa Light";
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.profile .span {
+  font-family: "Nexa";
+  font-weight: 700;
+}
+
+.profile .text-wrapper-2 {
+  font-family: "Nexa";
+  font-size: 32px;
+}
+
+.profile .text-wrapper-3 {
+  font-size: 22px;
+}
+
+.profile .foto-kopitema-dari {
+  height: 495px;
+  left: 163px;
+  position: absolute;
+  top: 1388px;
+  width: 761px;
+}
+
+.profile .flex-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  height: 291px;
+  left: 960px;
+  position: absolute;
+  top: 506px;
+  width: 862px;
+}
+
+.profile .text {
+  color: #ffffff;
+  font-family: "Nexa";
+  font-size: 80px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-shadow: -5px 12px 9px #00000070;
+  white-space: nowrap;
+  width: 862px;
+}
+
+.profile .text-wrapper-4 {
+  color: #ffffff;
+  font-family: "Nexa";
+  font-size: 80px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.profile .rectangle-2 {
+  background-color: #283618;
+  height: 25px;
+  left: 0;
+  position: absolute;
+  top: 2px;
+  width: 1920px;
+}
+
+.profile .rectangle-3 {
+  background-color: #fefae0;
+  height: 121px;
+  left: 0;
+  position: absolute;
+  top: 27px;
+  width: 1920px;
+}
+
+.profile .group {
+  height: 34px;
+  left: 1182px;
+  position: absolute;
+  top: 79px;
+  width: 596px;
+}
+
+.profile .HOME-button {
+  color: #6f4518;
+  font-family: "Nexa";
+  font-size: 24px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 95px;
+}
+
+.profile .PROFILE-button {
+  color: #6f4518;
+  font-family: "Nexa";
+  font-size: 24px;
+  font-weight: 400;
+  left: 150px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2px;
+  width: 133px;
+}
+
+.profile .MENU-button {
+  color: #6f4518;
+  font-family: "Nexa";
+  font-size: 24px;
+  font-weight: 400;
+  left: 326px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2px;
+  width: 133px;
+}
+
+.profile .KONTAK-button {
+  color: #6f4518;
+  font-family: "Nexa";
+  font-size: 24px;
+  font-weight: 400;
+  left: 477px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2px;
+  width: 111px;
+}
+
+.profile .logo-kopi-tema {
+  height: 77px;
+  left: 133px;
+  object-fit: cover;
+  position: absolute;
+  top: 50px;
+  width: 280px;
+}
+
+.profile .overlap-group {
+  height: 451px;
+  left: 0;
+  position: absolute;
+  top: 2175px;
+  width: 1926px;
+}
+
+.profile .text-wrapper-5 {
+  color: #fefae0;
+  font-family: "Nexa Light";
+  font-size: 24px;
+  font-weight: 400;
+  left: 159px;
+  letter-spacing: 0;
+  line-height: 34.3px;
+  position: absolute;
+  text-align: center;
+  top: 389px;
+  white-space: nowrap;
+}
+
+.profile .footer {
+  background-color: transparent;
+  height: 451px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1926px;
+}
+
+.profile .overlap-group-2 {
+  background-color: #432818;
+  height: 369px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.profile .frame {
+  height: 67px;
+  left: 159px;
+  position: absolute;
+  top: 73px;
+  width: 272px;
+}
+
+.profile .group-2 {
+  height: 164px;
+  left: 646px;
+  position: absolute;
+  top: 115px;
+  width: 256px;
+}
+
+.profile .text-wrapper-6 {
+  color: #fefae0;
+  font-family: "Nexa";
+  font-size: 22px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.profile .flex-container-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 124px;
+  left: 0;
+  position: absolute;
+  top: 40px;
+  width: 252px;
+}
+
+.profile .span-wrapper {
+  color: #fefae0;
+  font-family: "Nexa";
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  white-space: nowrap;
+  width: 252px;
+}
+
+.profile .text-wrapper-7 {
+  color: #fefae0;
+  font-family: "Nexa";
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.profile .group-3 {
+  height: 128px;
+  left: 1095px;
+  position: absolute;
+  top: 115px;
+  width: 172px;
+}
+
+.profile .flex-container-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 88px;
+  left: 0;
+  position: absolute;
+  top: 40px;
+  width: 79px;
+}
+
+.profile .text-2 {
+  color: #fefae0;
+  font-family: "Nexa";
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  white-space: nowrap;
+  width: 79px;
+}
+
+.profile .group-4 {
+  height: 56px;
+  left: 1460px;
+  position: absolute;
+  top: 115px;
+  width: 354px;
+}
+
+.profile .p {
+  color: #fefae0;
+  font-family: "Nexa";
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 40px;
+  white-space: nowrap;
+}
+
+.profile .text-wrapper-8 {
+  color: #fefae0;
+  font-family: "Nexa";
+  font-size: 22px;
+  font-weight: 400;
+  left: 160px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 187px;
+  white-space: nowrap;
+}
+
+.profile .flex-container-4 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 52px;
+  left: 160px;
+  position: absolute;
+  top: 227px;
+  width: 314px;
+}
+
+.profile .text-3 {
+  color: #fefae0;
+  font-family: "Nexa";
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  white-space: nowrap;
+  width: 314px;
+}
+
+.profile .overlap-2 {
+  height: 82px;
+  left: 0;
+  position: absolute;
+  top: 369px;
+  width: 1920px;
+}
+
+.profile .group-5 {
+  background-color: #283618;
+  height: 82px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.profile .instagram-logo {
+  height: 35px;
+  left: 1723px;
+  position: absolute;
+  top: 23px;
+  width: 35px;
+}
+
+.profile .GPS-logo-footer {
+  height: 48px;
+  left: 1418px;
+  position: absolute;
+  top: 19px;
+  width: 47px;
+}
+
+.profile .tiktok-logo {
+  height: 36px;
+  left: 1625px;
+  position: absolute;
+  top: 23px;
+  width: 31px;
+}
+
+.profile .WA-logo {
+  height: 35px;
+  left: 1523px;
+  position: absolute;
+  top: 23px;
+  width: 35px;
+}
+
+.profile .text-wrapper-9 {
+  color: #fefae0;
+  font-family: "Nexa Light";
+  font-size: 24px;
+  font-weight: 400;
+  left: 159px;
+  letter-spacing: 0;
+  line-height: 34.3px;
+  position: absolute;
+  text-align: center;
+  top: 21px;
+  white-space: nowrap;
+}

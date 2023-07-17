@@ -1,0 +1,776 @@
+@font-face {
+  font-family:"Nexa" ;
+  src: url("../font/Nexa Bold.otf");
+}
+
+@font-face {
+  font-family:"Nexa Light" ;
+  src: url("../font/Nexa Light.otf");
+}
+
+@font-face {
+  font-family: "Tahu" ;
+  src: url('../font/Tahu!.ttf');
+}
+.makanan {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.makanan .div {
+  background-color: #ffffff;
+  border: 1px none;
+  height: 3251px;
+  overflow: hidden;
+  position: relative;
+  width: 1920px;
+}
+
+.makanan .overlap {
+  height: 3105px;
+  left: 0;
+  position: absolute;
+  top: 146px;
+  width: 2191px;
+}
+
+.makanan .rectangle {
+  background-color: #fffef5;
+  height: 2160px;
+  left: 0;
+  position: absolute;
+  top: 945px;
+  width: 1920px;
+}
+
+.makanan .irham-gambar {
+  height: 945px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.makanan .flex-container {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  height: 291px;
+  left: 243px;
+  position: absolute;
+  top: 666px;
+  width: 1948px;
+}
+
+.makanan .text {
+  color: #ffffff;
+  font-family: Nexa;
+  font-size: 80px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  text-shadow: -5px 12px 9px #00000070;
+  white-space: nowrap;
+  width: 1948px;
+}
+
+.makanan .text-wrapper {
+  color: #ffffff;
+  font-family: Nexa;
+  font-size: 80px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.makanan .text-wrapper-2 {
+  color: #000000;
+  font-family: Nexa;
+  font-size: 35px;
+  font-weight: 400;
+  left: 356px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 1678px;
+  white-space: nowrap;
+  width: 507px;
+}
+
+.makanan .GARLIC-croissant {
+  color: #000000;
+  font-family: Nexa;
+  font-size: 35px;
+  font-weight: 400;
+  left: 1110px;
+  letter-spacing: 0;
+  line-height: 50px;
+  position: absolute;
+  top: 1672px;
+  white-space: nowrap;
+  width: 481px;
+}
+
+.makanan .h-1 {
+  color: #000000;
+  font-family: Nexa;
+  font-size: 64px;
+  font-weight: 400;
+  left: 718px;
+  letter-spacing: 0;
+  line-height: 91.5px;
+  position: absolute;
+  text-align: center;
+  top: 1044px;
+  white-space: nowrap;
+  width: 426px;
+}
+
+.makanan .text-wrapper-3 {
+  color: #000000;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 32px;
+  font-weight: 700;
+  left: 356px;
+  letter-spacing: 0;
+  line-height: 45.8px;
+  position: absolute;
+  top: 1822px;
+  white-space: nowrap;
+  width: 394px;
+}
+
+.makanan .text-wrapper-4 {
+  color: #000000;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 32px;
+  font-weight: 700;
+  left: 1110px;
+  letter-spacing: 0;
+  line-height: 45.8px;
+  position: absolute;
+  top: 1816px;
+  white-space: nowrap;
+  width: 394px;
+}
+
+.makanan .p {
+  color: #000000;
+  font-family: "Nexa Light";
+  font-size: 24px;
+  font-weight: 400;
+  left: 356px;
+  letter-spacing: 0;
+  line-height: 34.3px;
+  position: absolute;
+  top: 1744px;
+  width: 435px;
+}
+
+.makanan .croissant {
+  color: #000000;
+  font-family: Nexa;
+  font-size: 24px;
+  font-weight: 400;
+  left: 133px;
+  letter-spacing: 0;
+  line-height: 34.3px;
+  position: absolute;
+  top: 2334px;
+  white-space: nowrap;
+  width: 310px;
+}
+
+.makanan .text-wrapper-5 {
+  color: #000000;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 32px;
+  font-weight: 700;
+  left: 133px;
+  letter-spacing: 0;
+  line-height: 45.8px;
+  position: absolute;
+  top: 2471px;
+  white-space: nowrap;
+  width: 253px;
+}
+
+.makanan .text-wrapper-6 {
+  color: #000000;
+  font-family: "Nexa Light";
+  font-size: 24px;
+  font-weight: 400;
+  left: 133px;
+  letter-spacing: 0;
+  line-height: 34.3px;
+  position: absolute;
+  top: 2381px;
+  white-space: nowrap;
+  width: 257px;
+}
+
+.makanan .text-wrapper-7 {
+  color: #000000;
+  font-family: Nexa;
+  font-size: 24px;
+  font-weight: 400;
+  left: 786px;
+  letter-spacing: 0;
+  line-height: 34.3px;
+  position: absolute;
+  top: 2341px;
+  white-space: nowrap;
+  width: 279px;
+}
+
+.makanan .text-wrapper-8 {
+  color: #000000;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 32px;
+  font-weight: 700;
+  left: 786px;
+  letter-spacing: 0;
+  line-height: 45.8px;
+  position: absolute;
+  top: 2478px;
+  white-space: nowrap;
+  width: 253px;
+}
+
+.makanan .text-wrapper-9 {
+  color: #000000;
+  font-family: "Nexa Light";
+  font-size: 24px;
+  font-weight: 400;
+  left: 786px;
+  letter-spacing: 0;
+  line-height: 34.3px;
+  position: absolute;
+  top: 2385px;
+  white-space: nowrap;
+  width: 256px;
+}
+
+.makanan .text-wrapper-10 {
+  color: #000000;
+  font-family: "Nexa Light";
+  font-size: 24px;
+  font-weight: 400;
+  left: 1110px;
+  letter-spacing: 0;
+  line-height: 34.3px;
+  position: absolute;
+  top: 1738px;
+  width: 374px;
+}
+
+.makanan .text-wrapper-11 {
+  color: #000000;
+  font-family: Nexa;
+  font-size: 24px;
+  font-weight: 400;
+  left: 1434px;
+  letter-spacing: 0;
+  line-height: 34.3px;
+  position: absolute;
+  top: 2334px;
+  white-space: nowrap;
+  width: 254px;
+}
+
+.makanan .text-wrapper-12 {
+  color: #000000;
+  font-family: "Inter-Bold", Helvetica;
+  font-size: 32px;
+  font-weight: 700;
+  left: 1434px;
+  letter-spacing: 0;
+  line-height: 45.8px;
+  position: absolute;
+  top: 2471px;
+  white-space: nowrap;
+  width: 254px;
+}
+
+.makanan .text-wrapper-13 {
+  color: #000000;
+  font-family: "Nexa Light";
+  font-size: 24px;
+  font-weight: 400;
+  left: 1434px;
+  letter-spacing: 0;
+  line-height: 34.3px;
+  position: absolute;
+  top: 2378px;
+  width: 353px;
+}
+
+.makanan .garlic {
+  height: 399px;
+  left: 1110px;
+  object-fit: cover;
+  position: absolute;
+  top: 1225px;
+  width: 399px;
+}
+
+.makanan .rice-bowl {
+  height: 399px;
+  left: 356px;
+  object-fit: cover;
+  position: absolute;
+  top: 1225px;
+  width: 399px;
+}
+
+.makanan .img {
+  height: 290px;
+  left: 133px;
+  object-fit: cover;
+  position: absolute;
+  top: 2010px;
+  width: 290px;
+}
+
+.makanan .kentang {
+  height: 290px;
+  left: 786px;
+  object-fit: cover;
+  position: absolute;
+  top: 2017px;
+  width: 290px;
+}
+
+.makanan .waffle {
+  height: 290px;
+  left: 1434px;
+  object-fit: cover;
+  position: absolute;
+  top: 2010px;
+  width: 290px;
+}
+
+.makanan .best-seller-icon {
+  height: 45px;
+  left: 371px;
+  position: absolute;
+  top: 1246px;
+  width: 151px;
+}
+
+.makanan .overlap-group {
+  border: 1px solid;
+  border-color: #f6f7f7;
+  border-radius: 13px;
+  height: 45px;
+  position: relative;
+  width: 149px;
+}
+
+.makanan .text-wrapper-14 {
+  color: #ffffff;
+  font-family: Nexa;
+  font-size: 20px;
+  font-weight: 400;
+  left: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 13px;
+  width: 113px;
+}
+
+.makanan .must-try-logo {
+  height: 45px;
+  left: 1132px;
+  position: absolute;
+  top: 1246px;
+  width: 145px;
+}
+
+.makanan .div-wrapper {
+  border: 1px solid;
+  border-color: #fafafa;
+  border-radius: 13px;
+  height: 45px;
+  position: relative;
+  width: 143px;
+}
+
+.makanan .text-wrapper-15 {
+  color: #fafafa;
+  font-family: Nexa;
+  font-size: 20px;
+  font-weight: 400;
+  left: 51px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 13px;
+  white-space: nowrap;
+  width: 83px;
+}
+
+.makanan .footer {
+  background-color: transparent;
+  height: 451px;
+  left: 0;
+  position: absolute;
+  top: 2654px;
+  width: 1926px;
+}
+
+.makanan .overlap-2 {
+  background-color: #432818;
+  height: 369px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.makanan .frame {
+  height: 67px;
+  left: 159px;
+  position: absolute;
+  top: 73px;
+  width: 272px;
+}
+
+.makanan .group {
+  height: 164px;
+  left: 646px;
+  position: absolute;
+  top: 115px;
+  width: 256px;
+}
+
+.makanan .text-wrapper-16 {
+  color: #fefae0;
+  font-family: Nexa;
+  font-size: 22px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  white-space: nowrap;
+}
+
+.makanan .flex-container-2 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 124px;
+  left: 0;
+  position: absolute;
+  top: 40px;
+  width: 252px;
+}
+
+.makanan .span-wrapper {
+  color: #fefae0;
+  font-family: Nexa;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  white-space: nowrap;
+  width: 252px;
+}
+
+.makanan .span {
+  color: #fefae0;
+  font-family: Nexa;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+}
+
+.makanan .group-2 {
+  height: 128px;
+  left: 1095px;
+  position: absolute;
+  top: 115px;
+  width: 172px;
+}
+
+.makanan .flex-container-3 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 88px;
+  left: 0;
+  position: absolute;
+  top: 40px;
+  width: 79px;
+}
+
+.makanan .text-2 {
+  color: #fefae0;
+  font-family: Nexa;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  white-space: nowrap;
+  width: 79px;
+}
+
+.makanan .group-3 {
+  height: 56px;
+  left: 1460px;
+  position: absolute;
+  top: 115px;
+  width: 354px;
+}
+
+.makanan .text-wrapper-17 {
+  color: #fefae0;
+  font-family: Nexa;
+  font-size: 16px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 40px;
+  white-space: nowrap;
+}
+
+.makanan .text-wrapper-18 {
+  color: #fefae0;
+  font-family: Nexa;
+  font-size: 22px;
+  font-weight: 400;
+  left: 160px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 187px;
+  white-space: nowrap;
+}
+
+.makanan .flex-container-4 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 52px;
+  left: 160px;
+  position: absolute;
+  top: 227px;
+  width: 314px;
+}
+
+.makanan .text-3 {
+  color: #fefae0;
+  font-family: Nexa;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  position: relative;
+  white-space: nowrap;
+  width: 314px;
+}
+
+.makanan .overlap-3 {
+  height: 82px;
+  left: 0;
+  position: absolute;
+  top: 369px;
+  width: 1920px;
+}
+
+.makanan .group-4 {
+  background-color: #283618;
+  height: 82px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.makanan .instagram-logo {
+  height: 35px;
+  left: 1723px;
+  position: absolute;
+  top: 23px;
+  width: 35px;
+}
+
+.makanan .GPS-logo-footer {
+  height: 48px;
+  left: 1418px;
+  position: absolute;
+  top: 19px;
+  width: 47px;
+}
+
+.makanan .tiktok-logo {
+  height: 36px;
+  left: 1625px;
+  position: absolute;
+  top: 23px;
+  width: 31px;
+}
+
+.makanan .WA-logo {
+  height: 35px;
+  left: 1523px;
+  position: absolute;
+  top: 23px;
+  width: 35px;
+}
+
+.makanan .text-wrapper-19 {
+  color: #fefae0;
+  font-family: "Nexa Light";
+  font-size: 24px;
+  font-weight: 400;
+  left: 159px;
+  letter-spacing: 0;
+  line-height: 34.3px;
+  position: absolute;
+  text-align: center;
+  top: 21px;
+  white-space: nowrap;
+}
+
+.makanan .best-seller-icon-2 {
+  height: 27px;
+  left: 378px;
+  object-fit: cover;
+  position: absolute;
+  top: 1255px;
+  width: 20px;
+}
+
+.makanan .logo-must-try {
+  height: 27px;
+  left: 1147px;
+  object-fit: cover;
+  position: absolute;
+  top: 1253px;
+  width: 23px;
+}
+
+.makanan .text-wrapper-20 {
+  color: #fefae0;
+  font-family: "Nexa Light";
+  font-size: 24px;
+  font-weight: 400;
+  left: 159px;
+  letter-spacing: 0;
+  line-height: 34.3px;
+  position: absolute;
+  text-align: center;
+  top: 3471px;
+  white-space: nowrap;
+}
+
+.makanan .header {
+  background-color: transparent;
+  height: 146px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.makanan .rectangle-2 {
+  background-color: #283618;
+  height: 25px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 1920px;
+}
+
+.makanan .overlap-group-2 {
+  background-color: #fefae0;
+  height: 121px;
+  left: 0;
+  position: absolute;
+  top: 25px;
+  width: 1920px;
+}
+
+.makanan .group-5 {
+  height: 34px;
+  left: 1182px;
+  position: absolute;
+  top: 52px;
+  width: 596px;
+}
+
+.makanan .HOME-button {
+  color: #6f4518;
+  font-family: Nexa;
+  font-size: 24px;
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 95px;
+}
+
+.makanan .PROFILE-button {
+  color: #6f4518;
+  font-family: Nexa;
+  font-size: 24px;
+  font-weight: 400;
+  left: 150px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2px;
+  width: 133px;
+}
+
+.makanan .MENU-button {
+  color: #6f4518;
+  font-family: Nexa;
+  font-size: 24px;
+  font-weight: 400;
+  left: 326px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2px;
+  width: 133px;
+}
+
+.makanan .KONTAK-button {
+  color: #6f4518;
+  font-family: Nexa;
+  font-size: 24px;
+  font-weight: 400;
+  left: 477px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 2px;
+  width: 111px;
+}
+
+.makanan .logo-kopi-tema {
+  height: 77px;
+  left: 133px;
+  object-fit: cover;
+  position: absolute;
+  top: 23px;
+  width: 280px;
+}
